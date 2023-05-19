@@ -1,7 +1,7 @@
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:onepref/onepref.dart';
 
-class ManageSubscription {
+class ManagePurchases {
   //
   //
   //This method will check if the user has purchased the weekly subscription
