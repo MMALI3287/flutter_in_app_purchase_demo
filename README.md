@@ -33,8 +33,6 @@ Step 2: Setup
 ```dart
 flutter pub add onepref
 
-flutter pub add in_app_purchase
-
 ```
 
 Step 3: Configuration 
