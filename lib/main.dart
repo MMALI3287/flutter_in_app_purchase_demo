@@ -15,10 +15,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.orange,
       ),
       home: Scaffold(
-          appBar: AppBar(
-            title: const Text("Flutter In App Purchase Demo"),
-          ),
-          body: const Center()),
+        appBar: AppBar(
+          title: const Text("Flutter In App Purchase Demo"),
+        ),
+        body: const Center(
+          child: Text("Successfully cloned the /project"),
+        ),
+      ),
     );
   }
 }
