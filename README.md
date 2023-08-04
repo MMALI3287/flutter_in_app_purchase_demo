@@ -2,7 +2,7 @@
 
 Welcome to my Flutter demo project, in this project I will be covering the in_app_purchase package [in_app_purchase](https://pub.dev/packages/in_app_purchase/) , making it easy for developers out there to easily implement in app purchase system in thier apps. 
 
-## This Demo will Cover both 
+## This Demo will Cover both - If you want the demo code switch the branch to Dev
 * In App Products (Non - consumable and Consumable Purchases) 
 * Subscriptions (Weekly, Monthly and Yearly)
 
