@@ -1,5 +1,9 @@
 buildscript {
+<<<<<<< HEAD
     ext.kotlin_version = '1.7.21'
+=======
+    ext.kotlin_version = '1.8.21'
+>>>>>>> a630379a6b6d132a3c56b0970e2970c453612c63
     repositories {
         google()
         mavenCentral()
@@ -7,6 +11,9 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:7.1.2'
+        // START: FlutterFire Configuration
+        classpath 'com.google.gms:google-services:4.3.10'
+        // END: FlutterFire Configuration
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }

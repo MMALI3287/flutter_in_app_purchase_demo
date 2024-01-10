@@ -13,7 +13,11 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+<<<<<<< HEAD
   onepref: ^0.0.11
+=======
+  onepref: ^0.0.14
+>>>>>>> a630379a6b6d132a3c56b0970e2970c453612c63
 
 dev_dependencies:
   flutter_test:
@@ -22,4 +26,9 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+<<<<<<< HEAD
   uses-material-design: true
+=======
+  uses-material-design: true
+
+>>>>>>> a630379a6b6d132a3c56b0970e2970c453612c63

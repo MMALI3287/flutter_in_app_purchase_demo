@@ -1,7 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.wdtheprovider.f2inapp">
+=======
+    package="com.wdtheprovider.finapppurchase">
+>>>>>>> a630379a6b6d132a3c56b0970e2970c453612c63
    <application
-        android:label="inapppurchase"
+        android:label="F-InApp"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -24,5 +28,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+             <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
     </application>
 </manifest>
