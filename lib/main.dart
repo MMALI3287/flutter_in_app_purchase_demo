@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 <<<<<<< HEAD
 
@@ -6,8 +9,11 @@ void main() async {
 =======
 import 'package:onepref/onepref.dart';
 
+import 'firebase_options.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
   await OnePref.init();
 >>>>>>> a630379a6b6d132a3c56b0970e2970c453612c63
   runApp(const MyApp());
